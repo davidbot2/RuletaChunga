@@ -101,7 +101,7 @@ public class VentanaRuleta extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         
         int numero = aleatorio.nextInt(50);
-        resultado.setText(""+aleatorio.nextInt(50));
+        resultado.setText(""+numero);
         if (numero % 2 == 1){
             panelColor.setBackground(Color.red);
         }
